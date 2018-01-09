@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Game2018.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{CE7119D3-62E6-48FD-8D8A-0ADAD3576A52}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game2018.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Game2018Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{3CE11917-8975-400F-8952-553CFA9742C9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Game2018">
+			<UniqueIdentifier>{D5D7F6CA-47F1-4B8B-847D-B201EF7B7A91}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game2018\Game2018.Build.cs">
+			<Filter>Source\Game2018</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Game2018\Game2018.cpp">
+			<Filter>Source\Game2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game2018\Game2018.h">
+			<Filter>Source\Game2018</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game2018\Game2018GameModeBase.cpp">
+			<Filter>Source\Game2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game2018\Game2018GameModeBase.h">
+			<Filter>Source\Game2018</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
